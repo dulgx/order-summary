@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+body img {
+    width: 100%;
+}
+
+section {
+    width: 370px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+section img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.text {
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+.text h3 {
+    font-weight: 900;
+}
+
+.text span {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 400;
+}
+
+.choose-plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin: 40px;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+.choose-plan img {
+    width: 50px;
+    margin: 20px;
+    margin-left: 3%;
+}
+
+.price {
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+.price span {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    font-size: 13px;
+}
+
+.choose-plan a {
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.proceed {
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    border-style: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#cancel {
+    height: 40px;
+    width: 80%;
+    margin-left: 40px;
+    margin: 30px;
+    border-style: none;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.pro-can {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
